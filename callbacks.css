@@ -1,0 +1,64 @@
+  /* add defult styling */
+  * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+/* body styling */
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+/* div container styling */
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 90%;
+            max-width: 700px;
+            animation: fadeIn 1s ease-in-out;
+        }
+/* headline styling */
+        h1 {
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 2em;
+            animation: slideDown 0.7s ease-in-out;
+        }
+/* button styling */
+        button {
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+/* in button hober effect */
+        button:hover {
+            background-color: #6b6d6b;
+            transform: scale(1.05);
+        }
+/* div result styling */
+        #result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            white-space: pre-wrap;
+            text-align: left;
+            color: #fff;
+            font-size: 15px;
+        }
+
+      
